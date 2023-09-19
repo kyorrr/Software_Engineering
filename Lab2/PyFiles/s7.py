@@ -1,2 +1,2 @@
-sent = ("Hello World")
+sent = "Hello World"
 print(len(sent))
