@@ -1,2 +1,0 @@
-sent = ''
-print(bool(sent))
