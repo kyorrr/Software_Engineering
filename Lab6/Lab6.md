@@ -31,11 +31,11 @@ print("Список:", number_list)
 print("Кортеж:", number_tuple)
 ```
 ### Результат.
-![Меню](https://github.com/qyper17/Program-Engineering/blob/Theme_6/lab_6/pics/selfs/s1.png)
+![Меню](https://github.com/kyorrr/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_6/Lab6/pic/1.png)
 
 ## Выводы
 
-Программа распределяет введенные данные по списку и кортежу
+Программа распределяет введенные данные по списку и кортежу.
 
 ## Самостоятельная работа №2
 ### Неизменяемые кортежи Коли
@@ -61,11 +61,11 @@ result3 = remove_tuple(tuple3, 9)
 print(result3)
 ```
 ### Результат.
-![Меню](https://github.com/qyper17/Program-Engineering/blob/Theme_6/lab_6/pics/selfs/s2.png)
+![Меню](https://github.com/kyorrr/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_6/Lab6/pic/2.png)
 
 ## Выводы
 
-Программа удаляет первое появление элемента кортежа и возвращает уже без него
+Программа удаляет первое появление элемента кортежа и возвращает уже без него.
 
 ## Самостоятельная работа №3
 ### Numpad
@@ -95,11 +95,11 @@ else:
     print("3 самых частых числа:", sorted_result_dict)
 ```
 ### Результат.
-![Меню](https://github.com/qyper17/Program-Engineering/blob/Theme_6/lab_6/pics/selfs/s3.png)
+![Меню](https://github.com/kyorrr/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_6/Lab6/pic/3.png)
 
 ## Выводы
 
-Программа выводит 3 самых частых числа
+Программа выводит 3 самых частых числа)
 
 ## Самостоятельная работа №4
 ### Друг с офисом
@@ -133,11 +133,11 @@ result3 = find_employee_entry_exit(log3, employee_id3)
 print(result3)
 ```
 ### Результат.
-![Меню](https://github.com/qyper17/Program-Engineering/blob/Theme_6/lab_6/pics/selfs/s4.png)
+![Меню](https://github.com/kyorrr/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_6/Lab6/pic/4.png)
 
 ## Выводы
 
-Ожидаемый результат совпал с моим выводом
+Ничего нового. Извините уже просто комментарий нет.
 
 ## Самостоятельная работа №5
 ### Мое задание
@@ -167,13 +167,11 @@ result3 = find_min_max(numbers3)
 print(result3)
 ```
 ### Результат.
-![Меню](https://github.com/qyper17/Program-Engineering/blob/Theme_6/lab_6/pics/selfs/s5.png)
+![Меню](https://github.com/kyorrr/Software_Engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_6/Lab6/pic/5.png)
 
 ## Выводы
 
  Задача на нахождение наибольшего и наименьшего чисел в списке. 
 
 ## Общие выводы
-
-Первая сложная тема за все время, пришлось прям посидеть, подумать и даже прибегнуть к помощи нейронок 
-<(￣︶￣)> 
+Это самая сложная тема за все время. Пришлось посидеть и подумать, и даже погуглить, но я справился.
