@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e820fe5-4b26-4b26-aaa3-d7af9f76734a" name="Changes" comment="Выгрузка полность сделанной 2 темы.">
+      <change beforePath="$PROJECT_DIR$/PyFiles/s10.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyFiles/s10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyFiles/s7.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyFiles/s7.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="Тема_2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kyorrr&quot;
+  }
+}</component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="09168bd8-5221-4ed4-9106-885989a0ed84" />
+        <option name="url" value="https://github.com/kyorrr/Software_Engineering" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2VO7xFCHCH34CsRFVN1U6M2X060" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Тема__2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="Тема_2" />
+    </force-push-targets>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e820fe5-4b26-4b26-aaa3-d7af9f76734a" name="Changes" comment="" />
+      <created>1694352140419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694352140419</updated>
+      <workItem from="1694695520219" duration="611000" />
+      <workItem from="1694696193640" duration="319000" />
+      <workItem from="1694696520830" duration="409000" />
+      <workItem from="1694697538072" duration="645000" />
+      <workItem from="1695127476427" duration="289000" />
+      <workItem from="1695127903483" duration="1896000" />
+    </task>
+    <task id="LOCAL-00001" summary="Выгрузка 1 сам. работы.">
+      <option name="closed" value="true" />
+      <created>1694695831792</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694695831792</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Выгрузка 1 сам. работы.">
+      <option name="closed" value="true" />
+      <created>1694695865385</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694695865385</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Выгрузка 1 сам. работы.">
+      <option name="closed" value="true" />
+      <created>1694696244462</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694696244463</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Выгрузка 1 сам. работы.">
+      <option name="closed" value="true" />
+      <created>1694696503210</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694696503210</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Выгрузка полность сделанной 2 темы.">
+      <option name="closed" value="true" />
+      <created>1695127671416</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695127671417</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Выгрузка полность сделанной 2 темы.">
+      <option name="closed" value="true" />
+      <created>1695127753556</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695127753556</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Сделаны самостоятельные работы и прикреплены скриншоты." />
+    <MESSAGE value="Выгрузка 1 сам. работы." />
+    <MESSAGE value="Выгрузка полность сделанной 2 темы." />
+    <option name="LAST_COMMIT_MESSAGE" value="Выгрузка полность сделанной 2 темы." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Lab2$s1.coverage" NAME="s1 Coverage Results" MODIFIED="1694695773934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyFiles" />
+    <SUITE FILE_PATH="coverage/Lab2$s6.coverage" NAME="s6 Coverage Results" MODIFIED="1695127604984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyFiles" />
+  </component>
+</project>
