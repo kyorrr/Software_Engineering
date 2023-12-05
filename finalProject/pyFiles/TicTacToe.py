@@ -53,18 +53,18 @@ class TicTacToeGame:
         return rows + columns + [first_diagonal, second_diagonal]
 
     def toggle_player(self):
-        """Return a toggled player."""
+        """Возвращение хода."""
         self.current_player = next(self._players)
 
     def is_valid_move(self, move):
-        """Return True if move is valid, and False otherwise."""
+        """Разрешен ли следующий ход."""
         row, col = move.row, move.col
         move_was_not_played = self._current_moves[row][col].label == ""
         no_winner = not self._has_winner
         return no_winner and move_was_not_played
 
     def process_move(self, move):
-        """Process the current move and check if it's a win."""
+        """Следующий ход и его проверка на победность."""
         row, col = move.row, move.col
         self._current_moves[row][col] = move
         for combo in self._winning_combos:
@@ -76,11 +76,11 @@ class TicTacToeGame:
                 break
 
     def has_winner(self):
-        """Return True if the game has a winner, and False otherwise."""
+        """Проверка наличия победителя."""
         return self._has_winner
 
     def is_tied(self):
-        """Return True if the game is tied, and False otherwise."""
+        """Проверка ничьи."""
         no_winner = not self._has_winner
         played_moves = (
             move.label for row in self._current_moves for move in row
@@ -88,7 +88,7 @@ class TicTacToeGame:
         return no_winner and all(played_moves)
 
     def reset_game(self):
-        """Reset the game state to play again."""
+        """Сброс игры."""
         for row, row_content in enumerate(self._current_moves):
             for col, _ in enumerate(row_content):
                 row_content[col] = Move(row, col)
@@ -99,7 +99,6 @@ class TicTacToeGame:
         """Улучшенный алгоритм для хода компьютера."""
         # Сначала создадим копию текущего состояния игры
         game_copy = copy.deepcopy(self)
-
         # 1. Если компьютер может выиграть, сделаем этот ход
         for i in range(self.board_size):
             for j in range(self.board_size):
@@ -157,7 +156,7 @@ class TicTacToeBoard(tk.Tk):
         display_frame.pack(fill=tk.X)
         self.display = tk.Label(
             master=display_frame,
-            text="Ready?",
+            text="Готовы?",
             font=font.Font(size=28, weight="bold"),
         )
         self.display.pack()
@@ -183,7 +182,7 @@ class TicTacToeBoard(tk.Tk):
                 button.grid(row=row, column=col, padx=5, pady=5, sticky="nsew")
 
     def play(self, event):
-        """Handle a player's move."""
+        """Ход игрока."""
         clicked_btn = event.widget
         row, col = self._cells[clicked_btn]
         move = Move(row, col, self._game.current_player.label)
@@ -191,10 +190,10 @@ class TicTacToeBoard(tk.Tk):
             self._update_button(clicked_btn)
             self._game.process_move(move)
             if self._game.is_tied():
-                self._update_display(msg="Tied game!", color="red")
+                self._update_display(msg="Ничья!", color="red")
             elif self._game.has_winner():
                 self._highlight_cells()
-                msg = f'Player "{self._game.current_player.label}" won!'
+                msg = f'Игрок "{self._game.current_player.label}" победил!'
                 color = self._game.current_player.color
                 self._update_display(msg, color)
 
@@ -204,7 +203,7 @@ class TicTacToeBoard(tk.Tk):
 
             else:
                 self._game.toggle_player()
-                msg = f"{self._game.current_player.label}'s turn"
+                msg = f"Ход {self._game.current_player.label}'ка"
                 self._update_display(msg)
 
                 # После хода человека, проверим, не закончилась ли игра
@@ -215,15 +214,15 @@ class TicTacToeBoard(tk.Tk):
                         self._update_button(self._get_button_for_move(computer_move))
                         self._game.process_move(computer_move)
                         if self._game.is_tied():
-                            self._update_display(msg="Tied game!", color="red")
+                            self._update_display(msg="Ничья!", color="red")
                         elif self._game.has_winner():
                             self._highlight_cells()
-                            msg = f'Player "{self._game.current_player.label}" won!'
+                            msg = f'Игрок "{self._game.current_player.label}" победил!'
                             color = self._game.current_player.color
                             self._update_display(msg, color)
                         else:
                             self._game.toggle_player()
-                            msg = f"{self._game.current_player.label}'s turn"
+                            msg = f"Ход {self._game.current_player.label}'ка"
                             self._update_display(msg)
 
     def _update_button(self, clicked_btn):
@@ -240,9 +239,9 @@ class TicTacToeBoard(tk.Tk):
                 button.config(highlightbackground="red")
 
     def reset_board(self):
-        """Reset the game's board to play again."""
+        """Сброс доски"""
         self._game.reset_game()
-        self._update_display(msg="Ready?")
+        self._update_display(msg="Готовы?")
         for button in self._cells.keys():
             button.config(highlightbackground="lightblue")
             button.config(text="")
@@ -256,7 +255,6 @@ class TicTacToeBoard(tk.Tk):
 
 
 def main():
-    """Create the game's board and run its main loop."""
     game = TicTacToeGame()
     board = TicTacToeBoard(game)
     board.mainloop()
